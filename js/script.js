@@ -36,3 +36,16 @@
 // let element = `20.34px`;
 // element = Number.parseFloat(element);
 // console.log(element);
+
+// 12334.4234
+// let cena = 12334.4234;
+// cena = cena.toFixed(1);
+// console.log(cena);
+
+
+
+// // 28.39847
+// let cena = `28.39847px`;
+// cena = Number.parseInt(28.39847);
+// cena = cena.toFixed(2);
+// console.log(cena);
