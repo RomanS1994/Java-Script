@@ -109,3 +109,102 @@
 // for (let i = 0; i < max; i += 1) {
 //   console.log(`${max} % ${i} = `, max % i);
 // }
+
+// for (let i = 10; i >- 0; i += 1) {
+//     console.log(i);
+// }
+
+
+// const min = 4;
+// const max = 22;
+// for (let i = min; i <= max; i +=1 ) {
+//     console.log(i);
+// }
+
+/**
+  |============================
+  лічильник
+  |============================
+*/
+// const min = 0;
+// const max= 500; 
+// let total = 0;
+
+// for (let i = min; i <= max; i += 25 ){
+//     // console.log(i);
+//   /**
+//     |============================
+//     | парні числа
+//     |============================
+//   */
+//     if( i % 2 !== 0){
+//         console.log(`не  парне`, i );
+//         continue;
+//     }
+//     console.log(`парне`, i );
+//     total += i;
+// }
+// console.log('total: ', total);
+
+/**
+  |============================
+  | Оформлення замовлення з різними знижками
+  |============================
+*/
+// const totalSpent = 6000;
+// let payment = 500;
+// let discounet = 0;
+
+// if(totalSpent >= 100 && totalSpent < 1000){
+//     console.log('Бронзовий партнер, скидка 2%');
+//     discount = 0.02;
+// }
+// else if(totalSpent >= 1000 && totalSpent < 5000){
+//     console.log('срібний партнер, скидка 5%');
+//     discount = 0.05;
+// }
+// else if(totalSpent >= 5000){
+//     console.log('золотий партнер, скидка 10%');
+//     discount = 0.1;
+// }
+// else {
+//     console.log('не партнер скидка 0%');
+// }
+// console.log(
+//     `Оформдяєм заказ на суму ${payment} з скидкой ${discount * 100}%`,
+// );
+
+
+
+
+
+/**
+  |============================
+  | Розгалудження If i Swith
+  |============================
+*/
+
+// value = 3;
+
+// if(value === 10) {
+//     console.log(`варіант 10`);
+// } else if( value === 9) {
+//     console.log(`value 9`);
+// }else if( value === 8) {
+//     console.log(`value 8`);
+// }else if( value ===7) {
+//     console.log(`value 7`);
+// }else if( value ===6) {
+//     console.log(`value 6`);
+// }else if( value ===5) {
+//     console.log(`value 5`);
+// }else if( value ===4) {
+//     console.log(`value 4`);
+// }else if( value ===3) {
+//     console.log(`value 3`);
+// }
+
+
+value = 10;
+
+switch (value)
