@@ -372,7 +372,82 @@
 //     return message;
 //   }
 //   console.log(message);
+
+
+
+// function checkStorage(available, ordered) {
+//   let message;
+//     if (ordered === 0) {
+//     message = "There are no products in the order!";
+//     }
+//     else if (ordered > available) {
+//     message = "Your order is too large, there are not enough items in stock!";
+//     }
+//   else {
+//     message = "The order is accepted, our manager will contact you";
+//   }
+//   return message;
+// }
+
+// console.log(message);
+
+
+// function checkStorage(available, ordered) {
+
+//   // Change code below this line
+//     const message = ordered > available ? "Not enough goods in stock!" : "The order is accepted, our manager will contact you";
+
+
+//   // Change code above this line
+//   return message;
+// }
+
+
+
+// function formatMessage(message, maxLength) {
+//   let result;
+// if (message.length <= maxLength); {
+//   result = "message";
+// }
+//   else {
+//     result = message.length - maxLength + "...";
+//   }
   
+//   return result;
+// }
+// console.log(result);
+
+
+// function formatMessage(message, maxLength) {
+//   let result;
+//   // Change code below this line
+//   if (message.length > maxLength) {
+// result = message.slice(0, maxLength) + "...";
+//   } else {
+//     result = message.slice(0, maxLength);
+//   }
+//   /// Change code above this line
+//   return result;
+// }
 
 
 
+// function checkForSpam(message) {
+//   let result;
+//   // Change code below this line
+//   message = message.toLowerCase();
+//   result = message.includes("sale") || message.includes("spam");
+//   // result = message.includes("spam");
+//   // Change code above this line
+//   return result;
+// }
+
+
+// function checkForSpam(message) {
+//   let result;
+
+//   message = message.toLowerCase;
+//   result = message.includes("spam") || message.includes("sale")
+  
+//   return result;
+// }
