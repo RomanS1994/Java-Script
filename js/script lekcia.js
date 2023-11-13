@@ -251,7 +251,7 @@
 
 // condititon ? true : false
 
-const value = 4;
+// const value = 4;
 
-value > 8 ? console.log("ok") : console.log("not");
+// value > 8 ? console.log("ok") : console.log("not");
 

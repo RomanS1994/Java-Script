@@ -451,3 +451,40 @@
   
 //   return result;
 // }
+
+
+
+// value = 3;
+
+// if(value === 10) {
+//     console.log(`варіант 10`);
+// } else if( value === 9) {
+//     console.log(`value 9`);
+// }else if( value === 8) {
+//     console.log(`value 8`);
+// }else if( value ===7) {
+//     console.log(`value 7`);
+// }else if( value ===6) {
+//     console.log(`value 6`);
+// }else if( value ===5) {
+//     console.log(`value 5`);
+// }else if( value ===4) {
+//     console.log(`value 4`);
+// }else if( value ===3) {
+//     console.log(`value 3`);
+// }
+
+
+// const friends = ['mango', 'kiwi']
+// console.log(friends);
+// console.table(friends);
+
+// friends[1] = 'sdasds';
+// console.table(friends);
+
+
+// const friends= ['1', '2', '3', '4', '5', '6', '7', '8']
+// for(let i = 0; i <= friends.length -1; i += 1){
+//   console.log(friends[i]);
+// }
+
