@@ -483,8 +483,90 @@
 // console.table(friends);
 
 
-// const friends= ['1', '2', '3', '4', '5', '6', '7', '8']
+// const friends= ['fvf', '2fdv', '3fdvdf', '4dfvf', '5dfv', '6dfv', '7dfv', '8dfvfd'];
+// console.table(friends);
 // for(let i = 0; i <= friends.length -1; i += 1){
-//   console.log(friends[i]);
+// }
+/**
+  |============================
+  | "FOR"
+  |============================
+*/
+
+// const friends = [2, 4, 6, 4, 75, 32, 43];
+// let total = 0;
+// for(let i = 0; i < friends.length; i += 1) {
+// total += friends[i];
+// }
+// console.table(total);
+
+/**
+  |============================
+  | "FOR OF"
+  |============================
+*/
+
+// const friends = [2, 4, 6, 4, 75, 32, 43];
+// let total = 0;
+
+// for (const val of friends){
+//   total += val;
+// }
+// console.log(total);
+
+
+
+// const array = ["Hello world,", null, true, 15];
+// // console.log(array);
+
+// // console.log(array.length -2);
+// console.log(lastEl.array);
+
+
+/**
+  |============================
+  | Перебір масиву
+  |============================
+*/
+
+
+// const array = ["Hello world,", null, true, 15];
+
+// for(const item of array){
+//   console.log(item);
 // }
 
+
+
+
+
+
+
+// // Виносимо варіанти в масив
+// const redFruits = ["apple", "cherry", "cranberries"];
+// const fruit = "strawberry";
+// // Перевіряємо присутність елемента
+// const hasFruit = redFruits.includes(fruit);
+
+// if (hasFruit) {
+//   console.log(`${fruit} is a red fruit!`);
+// }
+
+
+
+// const numbers = [];
+
+// numbers.push(1);
+// console.log(numbers); // [1]
+
+// numbers.push(2);
+// console.log(numbers); // [1, 2]
+
+// numbers.push(3);
+// console.log(numbers); // [1, 2, 3]
+
+// numbers.push(4);
+// console.log(numbers); // [1, 2, 3, 4]
+
+// numbers.push(5);
+// console.log(numbers); // [1, 2, 3, 4, 5]
