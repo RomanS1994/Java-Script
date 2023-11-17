@@ -570,3 +570,55 @@
 
 // numbers.push(5);
 // console.log(numbers); // [1, 2, 3, 4, 5]
+
+// function checkStorage(available, ordered) {
+//   // Change code below this line
+
+//   if (ordered === 0) {
+//    return "Your order is empty!";
+//   } else if (ordered > available) {
+//     return "Your order is too large, not enough goods in stock!";
+//   } 
+//   return "The order is accepted, our manager will contact you";
+//   // Change code above this line
+// }
+
+// const fruits = ["apple", "plum", "pear", "orange"];
+
+// const firstElement = fruits[0];
+// const secondElement = fruits[1];
+// const lastElement = fruits[index.length - 1];
+
+// console.log(lastElement);
+
+// let index = ["apple", "plum", "pear", "orange"];
+// const lastElement = index[index.length - 1];
+
+// console.log(lastElement);
+
+// let fruits = ["apple", "plum", "pear", "orange"];
+
+// const firstElement = fruits[0];
+// const secondElement = fruits[1];
+// const lastElement = fruits[fruits.length - 1];
+
+// // Change code below this line
+
+
+// let index = [1, 2, 4, 5, 7, "6"];
+
+// const lastElement =index[index.length - 1]
+// console.log(lastElement);
+
+// const fruits = ["apple", "plum", "pear", "orange"];
+
+// // Change code below this line
+// const firstElement = fruits[0];
+// const secondElement = fruits[1];
+// const lastElement = fruits[fruits.length - 1]
+
+
+const fruits = ["apple", "peach", "pear", "banana"];
+
+const lastElementIndex = fruits.length - 1;
+const lastElement = fruits [lastElementIndex.length - 1];
