@@ -618,7 +618,105 @@
 // const lastElement = fruits[fruits.length - 1]
 
 
-const fruits = ["apple", "peach", "pear", "banana"];
+// const fruits = ["apple", "peach", "pear", "banana"];
 
-const lastElementIndex = fruits.length - 1;
-const lastElement = fruits [lastElementIndex.length - 1];
+// const lastElementIndex = fruits.length - 1;
+// const lastElement = fruits [lastElementIndex.length - 1];
+
+
+
+// const message = "JavaScript essentials";
+// console.log(message.split(" ")); // ["JavaScript", "essentials"]
+
+
+
+// function calculateEngravingPrice(message, pricePerWord) {
+//   // Change code below this line
+
+
+
+// console.log(calculateEngravingPrice = message.split(" ") * pricePerWord);
+ 
+// return  
+//   // Change code above this line
+// }
+
+
+
+
+// const productName = "Droid";
+// const pricePerItem = 3500;
+
+//   let message = `You picked ${productName}, price per item is ${pricePerItem}, credits`;
+//   console.log(message);
+
+//   const guestName = "Mango";
+// const roomNumber = 207;
+// const greeting = `Ласкаво просимо ${guestName}, ви заселені у номер ${roomNumber}`;
+
+
+// // Change code below this line
+// function add(a, b, c) {
+//   result = a + b + c; 
+   
+//    console.log(`Addition result equals ${result}`);
+//    // Change code above this line
+//  }
+ 
+//  add(15, 27, 10);
+//  add(10, 20, 30);
+//  add(5, 10, 15);
+
+
+//  function checkStorage(available, ordered) {
+//   let message;
+//   // Change code below this line
+// if (ordered >= available){
+//   message = "Not enough goods in stock!";
+// }
+//   else{
+//     message = "Order is processed, our manager will contact you.";
+//   }
+//   // Change code above this line
+//   return message;
+// }
+
+
+// function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
+//   let message;
+// const totalPrice = pricePerDroid * orderedQuantity;
+//   // Change code below this line
+// if ( customerCredits < totalPrice){
+//   message = "Insufficient funds!";
+// }
+//   else{
+//     message = `You ordered ${orderedQuantity} droids, you have ${customerCredits - totalPrice} credits left`;
+//   }
+//   console.log(message);
+//   // Change code above this line
+//   return message;
+// }
+
+// makeTransaction(3000, 5, 23000)
+
+// function checkStorage(available, ordered) {
+//   let message;
+//   // Change code below this line
+//   if (ordered === 0){
+//     message = "There are no products in the order!";}
+//     else if (ordered > available){
+//     message = "Your order is too large, there are not enough items in stock!";
+//     }
+//   else{
+//     message = "The order is accepted, our manager will contact you";
+//   }
+
+//   // Change code above this line
+//   return message;
+// }
+
+// function name(params) {
+//   if (condition) {
+    
+//   }
+// }
