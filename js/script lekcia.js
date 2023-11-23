@@ -207,20 +207,20 @@
   | console.time
   |============================
 */
-const value = 8;
-console.time("switch");
-switch (10) {
-  case 10:
-    console.log("value - 10");
-    break;
-  case 9:
-    console.log("value - 9");
-    break;
-  case 7:
-    console.log("value - 8");
-    break;
-}
-console.timeEnd("switch");
+// const value = 8;
+// console.time("switch");
+// switch (10) {
+//   case 10:
+//     console.log("value - 10");
+//     break;
+//   case 9:
+//     console.log("value - 9");
+//     break;
+//   case 7:
+//     console.log("value - 8");
+//     break;
+// }
+// console.timeEnd("switch");
 
 /**
   |============================
