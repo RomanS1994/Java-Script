@@ -1,4 +1,4 @@
-// Функція calculateTotalPrice рахує і повертає загальну суму покупки. 
+// Функція calculateTotalPrice рахує і повертає загальну суму покупки.
 // Вона приймає два параметри, значення яких будуть задаватися під час її виклику.
 
 // orderedQuantity - кількість одиниць товару в замовленні;
@@ -14,23 +14,19 @@
 // Виклик calculateTotalPrice(12, 70) повертає 840
 // Виклик функції з випадковими, але валідними аргументами, повертає правильне значення
 
-
 // function calculateTotalPrice (orderedQuantity, pricePerItem) {
 //     // Change code below this line
 //     const totalPrice = orderedQuantity * pricePerItem;
-  
+
 //     // Change code above this line
-//     return totalPrice 
+//     return totalPrice
 // console.log(`do`)
 // alert(`fdsfds`)
-
-
 
 // let posle = prompt(`продовжити підписку`);
 // posle = Number (posle);
 // console.log(posle);
 // console.log(typeof posle);
-
 
 // //  20.34px
 // let element = `20.34px`;
@@ -42,17 +38,13 @@
 // cena = cena.toFixed(1);
 // console.log(cena);
 
-
-
 // // 28.39847
 // let cena = `28.39847px`;
 // cena = Number.parseInt(28.39847);
 // cena = cena.toFixed(2);
 // console.log(cena);
 
-
-
-// 3 
+// 3
 // 4
 // const base = 3
 // const state = 4
@@ -60,7 +52,6 @@
 // // console.log(result);
 // const result = (base ** state);
 // console.log(result);
-
 
 // let base = prompt(`Число`);
 
@@ -74,14 +65,13 @@
 
 // if (true) {
 //     const value = 5;
-//     console.log("Block scope: ", value); 
+//     console.log("Block scope: ", value);
 //   }
 
 //   if (true) {
 //     const value = 5;
 //     console.log("Global scope: ", value); // 5
 //   }
-  
 
 // let password = "";
 
@@ -94,7 +84,6 @@
 // for (let i = 0; i <= 10; i += 2) {
 //     console.log(i);
 //   }
-  
 
 // const target = 3;
 // let sum = 0;
@@ -114,7 +103,6 @@
 //     console.log(i);
 // }
 
-
 // const min = 4;
 // const max = 22;
 // for (let i = min; i <= max; i +=1 ) {
@@ -127,7 +115,7 @@
   |============================
 */
 // const min = 0;
-// const max= 500; 
+// const max= 500;
 // let total = 0;
 
 // for (let i = min; i <= max; i += 25 ){
@@ -174,10 +162,6 @@
 //     `Оформдяєм заказ на суму ${payment} з скидкой ${discount * 100}%`,
 // );
 
-
-
-
-
 /**
   |============================
   | Розгалудження If i Swith
@@ -204,22 +188,19 @@
 //     console.log(`value 3`);
 // }
 
-
 // const value = 9;
 
 // switch (10){
-//     case 10: 
+//     case 10:
 //         console.log("value - 10");
 //         break;
-//     case 9: 
+//     case 9:
 //         console.log("value - 9");
 //         break;
 //     case 7:
 //         console.log("value - 8");
 //         break;
 // }
-
-
 
 /**
   |============================
@@ -230,10 +211,10 @@
 // ;
 // console.time("switch")
 // switch (10){
-//     case 10: 
+//     case 10:
 //         console.log("value - 10");
 //         break;
-//     case 9: 
+//     case 9:
 //         console.log("value - 9");
 //         break;
 //     case 7:
@@ -241,7 +222,6 @@
 //         break;
 // }
 // console.timeEnd("switch")
-
 
 /**
   |============================
@@ -290,8 +270,6 @@
 //   i+=1
 // } while (i < 10); // false
 
-
-
 /**
   |============================
   | Цикл Swith "Світлофор"
@@ -318,8 +296,6 @@
 //     }
 //     console.log(action);
 
-
-
 /**
   |============================
   | Функція
@@ -345,20 +321,18 @@
 // getDays(42);
 // getDays(17);
 // getDays(18);
-  
 
 // function checkAge(age) {
 //     let message;
-  
-//     if ( 18 >= age ) { 
+
+//     if ( 18 >= age ) {
 //       message = 'You are an adult';
 //     } else {
 //       message = 'You are a minor';
 //     }
-  
+
 //     return message;
 //   }
-
 
 //   function checkStorage(available, ordered) {
 //     let message ;
@@ -367,13 +341,11 @@
 //         else {
 //       message = "Order is processed, our manager will contact you.";
 //     }
-  
+
 //     // Change code above this line
 //     return message;
 //   }
 //   console.log(message);
-
-
 
 // function checkStorage(available, ordered) {
 //   let message;
@@ -391,18 +363,14 @@
 
 // console.log(message);
 
-
 // function checkStorage(available, ordered) {
 
 //   // Change code below this line
 //     const message = ordered > available ? "Not enough goods in stock!" : "The order is accepted, our manager will contact you";
 
-
 //   // Change code above this line
 //   return message;
 // }
-
-
 
 // function formatMessage(message, maxLength) {
 //   let result;
@@ -412,11 +380,10 @@
 //   else {
 //     result = message.length - maxLength + "...";
 //   }
-  
+
 //   return result;
 // }
 // console.log(result);
-
 
 // function formatMessage(message, maxLength) {
 //   let result;
@@ -429,9 +396,6 @@
 //   /// Change code above this line
 //   return result;
 // }
-
-
-
 // function checkForSpam(message) {
 //   let result;
 //   // Change code below this line
@@ -442,17 +406,14 @@
 //   return result;
 // }
 
-
 // function checkForSpam(message) {
 //   let result;
 
 //   message = message.toLowerCase;
 //   result = message.includes("spam") || message.includes("sale")
-  
+
 //   return result;
 // }
-
-
 
 // value = 3;
 
@@ -474,14 +435,12 @@
 //     console.log(`value 3`);
 // }
 
-
 // const friends = ['mango', 'kiwi']
 // console.log(friends);
 // console.table(friends);
 
 // friends[1] = 'sdasds';
 // console.table(friends);
-
 
 // const friends= ['fvf', '2fdv', '3fdvdf', '4dfvf', '5dfv', '6dfv', '7dfv', '8dfvfd'];
 // console.table(friends);
@@ -514,14 +473,11 @@
 // }
 // console.log(total);
 
-
-
 // const array = ["Hello world,", null, true, 15];
 // // console.log(array);
 
 // // console.log(array.length -2);
 // console.log(lastEl.array);
-
 
 /**
   |============================
@@ -529,18 +485,11 @@
   |============================
 */
 
-
 // const array = ["Hello world,", null, true, 15];
 
 // for(const item of array){
 //   console.log(item);
 // }
-
-
-
-
-
-
 
 // // Виносимо варіанти в масив
 // const redFruits = ["apple", "cherry", "cranberries"];
@@ -551,8 +500,6 @@
 // if (hasFruit) {
 //   console.log(`${fruit} is a red fruit!`);
 // }
-
-
 
 // const numbers = [];
 
@@ -578,7 +525,7 @@
 //    return "Your order is empty!";
 //   } else if (ordered > available) {
 //     return "Your order is too large, not enough goods in stock!";
-//   } 
+//   }
 //   return "The order is accepted, our manager will contact you";
 //   // Change code above this line
 // }
@@ -604,7 +551,6 @@
 
 // // Change code below this line
 
-
 // let index = [1, 2, 4, 5, 7, "6"];
 
 // const lastElement =index[index.length - 1]
@@ -617,32 +563,22 @@
 // const secondElement = fruits[1];
 // const lastElement = fruits[fruits.length - 1]
 
-
 // const fruits = ["apple", "peach", "pear", "banana"];
 
 // const lastElementIndex = fruits.length - 1;
 // const lastElement = fruits [lastElementIndex.length - 1];
 
-
-
 // const message = "JavaScript essentials";
 // console.log(message.split(" ")); // ["JavaScript", "essentials"]
-
-
 
 // function calculateEngravingPrice(message, pricePerWord) {
 //   // Change code below this line
 
-
-
 // console.log(calculateEngravingPrice = message.split(" ") * pricePerWord);
- 
-// return  
+
+// return
 //   // Change code above this line
 // }
-
-
-
 
 // const productName = "Droid";
 // const pricePerItem = 3500;
@@ -654,19 +590,17 @@
 // const roomNumber = 207;
 // const greeting = `Ласкаво просимо ${guestName}, ви заселені у номер ${roomNumber}`;
 
-
 // // Change code below this line
 // function add(a, b, c) {
-//   result = a + b + c; 
-   
+//   result = a + b + c;
+
 //    console.log(`Addition result equals ${result}`);
 //    // Change code above this line
 //  }
- 
+
 //  add(15, 27, 10);
 //  add(10, 20, 30);
 //  add(5, 10, 15);
-
 
 //  function checkStorage(available, ordered) {
 //   let message;
@@ -680,7 +614,6 @@
 //   // Change code above this line
 //   return message;
 // }
-
 
 // function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
 //   let message;
@@ -717,17 +650,14 @@
 
 // function name(params) {
 //   if (condition) {
-    
+
 //   }
 // }
-
 
 // // Виведення чисел від 1 до 5
 // for (let i = 1; i <= 20; i+=3) {
 //   console.log(i);
 // }
-
-
 
 // Звісно, ось кілька задач, які можна вирішити за допомогою циклу for в JavaScript:
 
@@ -785,8 +715,6 @@
 
 // function calculateTotal(number) {
 //   // Change code below this line
- 
-
 
 //  let total = 0;
 //    for (let i = 1; i <= number; i++) {
@@ -794,7 +722,6 @@
 //    }
 //  return total;
 //    // Change code above this line
-
 
 //  }
 
@@ -819,7 +746,6 @@
 // }
 // let order = [10, 20, 30, 40, 50];
 // console.log(calculateTotalPrice(order))
-
 
 // const numbers = [22, 55, 64, 643, 3, 5, 23, 77];
 
@@ -851,10 +777,9 @@
 // const normalizedTitle = title.toLowerCase();
 
 // const words = normalizedTitle.split(' ');
-// console.log(words); 
+// console.log(words);
 // const slug = words.join('-');
 // console.log(slug);
-
 
 // Задача №7 з практики з ментором
 // // ---- task 7
@@ -886,13 +811,11 @@
 // console.log(keyWord);
 // console.log(decoder(keyWord));
 
-
 /**
   |============================
   | task 
   |============================
 */
-
 
 // const book = {
 //   title: "The Last Kingdom",
@@ -908,10 +831,3 @@
 //   // Значення властивості
 //   console.log(book[key]);
 // }
-
-            const rgb = [200, 255, 100];
-    const [red, green, blue] = rgb;
-console.log(`R:${red}, G: ${green}); B:$ {blue}`);
-
-
-
