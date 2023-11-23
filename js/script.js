@@ -825,9 +825,17 @@
 // };
 // const keys = Object.keys(book);
 
-// for (const key of keys) {
-//   // Ключ
-//   console.log(key);
-//   // Значення властивості
-//   console.log(book[key]);
-// }
+// // for (const key of keys) {
+// //   // Ключ
+// //   console.log(key);
+// //   // Значення властивості
+// //   console.log(book[key]);
+// // }
+
+// const playlist = {
+//   name: "Super playlist",
+//   rating: 5,
+//   tracks: ["track-1", "track-2", "track-3"],
+//   trackCount: 3,
+// };
+// console.log(playlist.name);

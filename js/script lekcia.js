@@ -1,4 +1,4 @@
-// Функція calculateTotalPrice рахує і повертає загальну суму покупки. 
+// Функція calculateTotalPrice рахує і повертає загальну суму покупки.
 // Вона приймає два параметри, значення яких будуть задаватися під час її виклику.
 
 // orderedQuantity - кількість одиниць товару в замовленні;
@@ -14,23 +14,19 @@
 // Виклик calculateTotalPrice(12, 70) повертає 840
 // Виклик функції з випадковими, але валідними аргументами, повертає правильне значення
 
-
 // function calculateTotalPrice (orderedQuantity, pricePerItem) {
 //     // Change code below this line
 //     const totalPrice = orderedQuantity * pricePerItem;
-  
+
 //     // Change code above this line
-//     return totalPrice 
+//     return totalPrice
 // console.log(`do`)
 // alert(`fdsfds`)
-
-
 
 // let posle = prompt(`продовжити підписку`);
 // posle = Number (posle);
 // console.log(posle);
 // console.log(typeof posle);
-
 
 // //  20.34px
 // let element = `20.34px`;
@@ -42,17 +38,13 @@
 // cena = cena.toFixed(1);
 // console.log(cena);
 
-
-
 // // 28.39847
 // let cena = `28.39847px`;
 // cena = Number.parseInt(28.39847);
 // cena = cena.toFixed(2);
 // console.log(cena);
 
-
-
-// 3 
+// 3
 // 4
 // const base = 3
 // const state = 4
@@ -60,7 +52,6 @@
 // // console.log(result);
 // const result = (base ** state);
 // console.log(result);
-
 
 // let base = prompt(`Число`);
 
@@ -74,14 +65,13 @@
 
 // if (true) {
 //     const value = 5;
-//     console.log("Block scope: ", value); 
+//     console.log("Block scope: ", value);
 //   }
 
 //   if (true) {
 //     const value = 5;
 //     console.log("Global scope: ", value); // 5
 //   }
-  
 
 // let password = "";
 
@@ -94,7 +84,6 @@
 // for (let i = 0; i <= 10; i += 2) {
 //     console.log(i);
 //   }
-  
 
 // const target = 3;
 // let sum = 0;
@@ -114,7 +103,6 @@
 //     console.log(i);
 // }
 
-
 // const min = 4;
 // const max = 22;
 // for (let i = min; i <= max; i +=1 ) {
@@ -127,7 +115,7 @@
   |============================
 */
 // const min = 0;
-// const max= 500; 
+// const max= 500;
 // let total = 0;
 
 // for (let i = min; i <= max; i += 25 ){
@@ -174,10 +162,6 @@
 //     `Оформдяєм заказ на суму ${payment} з скидкой ${discount * 100}%`,
 // );
 
-
-
-
-
 /**
   |============================
   | Розгалудження If i Swith
@@ -204,44 +188,39 @@
 //     console.log(`value 3`);
 // }
 
-
 // const value = 9;
 
 // switch (10){
-//     case 10: 
+//     case 10:
 //         console.log("value - 10");
 //         break;
-//     case 9: 
+//     case 9:
 //         console.log("value - 9");
 //         break;
 //     case 7:
 //         console.log("value - 8");
 //         break;
 // }
-
-
 
 /**
   |============================
   | console.time
   |============================
 */
-// const value = 8
-// ;
-// console.time("switch")
-// switch (10){
-//     case 10: 
-//         console.log("value - 10");
-//         break;
-//     case 9: 
-//         console.log("value - 9");
-//         break;
-//     case 7:
-//         console.log("value - 8");
-//         break;
-// }
-// console.timeEnd("switch")
-
+const value = 8;
+console.time("switch");
+switch (10) {
+  case 10:
+    console.log("value - 10");
+    break;
+  case 9:
+    console.log("value - 9");
+    break;
+  case 7:
+    console.log("value - 8");
+    break;
+}
+console.timeEnd("switch");
 
 /**
   |============================
@@ -254,4 +233,3 @@
 // const value = 4;
 
 // value > 8 ? console.log("ok") : console.log("not");
-
