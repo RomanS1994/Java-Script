@@ -92,3 +92,36 @@
 //     return result;
 //   }
 //   console.log(result);
+
+
+// const fn = function (value){
+//     // console.log(1);
+//     // console.log(2);
+    
+//     if (value < 50){
+//         return 'менше ніж 50';
+//     }
+//     else {
+//         return 'більше ніж 50';
+//     }
+// };
+// console.log('результат функції: ', fn(10));
+// console.log('результат функції: ', fn(1000));
+
+
+// function filterArray(numbers, value) {
+//     // Change code below this line
+//     const filteredNumbers = [];
+  
+//     for (let number of numbers) {
+//       const number = numbers[i];
+//     }
+//    if (number > value) {
+//         filteredNumbers.push(number);
+//       }
+  
+//     return filteredNumbers;
+//     // Change code above this line
+// }
+
+// console.log(filterArray([1, 2, 3, 4, 5], 3));

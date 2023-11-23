@@ -720,3 +720,198 @@
     
 //   }
 // }
+
+
+// // Виведення чисел від 1 до 5
+// for (let i = 1; i <= 20; i+=3) {
+//   console.log(i);
+// }
+
+
+
+// Звісно, ось кілька задач, які можна вирішити за допомогою циклу for в JavaScript:
+
+// Сума чисел:
+// Використайте цикл for, щоб знайти суму всіх чисел від 1 до N.
+
+// javascript
+// Copy code
+// let sum = 0;
+// let N = 5;
+
+// for (let i = 1; i <= N; i++) {
+//   sum += i;
+// }
+
+// console.log('Сума чисел від 1 до', N, 'дорівнює', sum);
+// Парні числа:
+// Виведіть парні числа від 2 до 10 за допомогою циклу for.
+
+// javascript
+// Copy code
+// for (let i = 2; i <= 10; i += 2) {
+//   console.log(i);
+// }
+// Таблиця множення:
+// Створіть таблицю множення для конкретного числа (наприклад, 5).
+
+// javascript
+// Copy code
+// let multiplier = 5;
+
+// for (let i = 1; i <= 10; i++) {
+//   console.log(multiplier + ' * ' + i + ' = ' + multiplier * i);
+// }
+// Заповнення масиву:
+// Заповніть масив числами від 1 до 5 за допомогою циклу for.
+
+// javascript
+// Copy code
+// let arr = [];
+
+// for (let i = 1; i <= 5; i++) {
+//   arr.push(i);
+// }
+
+// console.log(arr);
+// Зворотний лічильник:
+// Виведіть числа від 10 до 1 в зворотньому порядку.
+
+// javascript
+// Copy code
+// for (let i = 10; i >= 1; i--) {
+//   console.log(i);
+// }
+
+// function calculateTotal(number) {
+//   // Change code below this line
+ 
+
+
+//  let total = 0;
+//    for (let i = 1; i <= number; i++) {
+//      total += i;
+//    }
+//  return total;
+//    // Change code above this line
+
+
+//  }
+
+//  let result = calculateTotal(5);
+// console.log(result); // Виведе 15
+
+// const fruits = ['apple', 'plum', 'pear', 'orange'];
+
+// for (let i = 0; i < fruits.length; i +=1 ) { // Change this line
+//   const fruit = fruits[i]; // Change this line
+//   console.log(fruit);
+// }
+
+// function calculateTotalPrice(order) {
+//   let total = 0;
+//   // Change code below this line
+// for (let i = 0; i < order.length; i += 1) {
+//   total += order[i];
+// }
+//   // Change code above this line
+//   return total;
+// }
+// let order = [10, 20, 30, 40, 50];
+// console.log(calculateTotalPrice(order))
+
+
+// const numbers = [22, 55, 64, 643, 3, 5, 23, 77];
+
+// let smallNumber = numbers[0];
+
+// for (const number of numbers){
+// if ( number < smallNumber){
+//   smallNumber = number;
+// }
+// }
+//   console.log(smallNumber);
+
+// const numbers = [22, 55, 64, 643, 3, 5, 23, 77];
+
+// let smallNumber = numbers[0];
+
+// for (let i = 0; i < numbers.length; i++) {
+//   const number = numbers[i];
+// if(number > smallNumber){
+//   smallNumber = number;
+// }
+
+// }
+
+// console.log(smallNumber);
+
+// const title = 'Top 10 benefits of React framework';
+
+// const normalizedTitle = title.toLowerCase();
+
+// const words = normalizedTitle.split(' ');
+// console.log(words); 
+// const slug = words.join('-');
+// console.log(slug);
+
+
+// Задача №7 з практики з ментором
+// // ---- task 7
+// // Створи дві функції: одна для кодування рядка,
+// // інша - для декодування.Кодування повинно працювати так:
+// //  кожен символ в рядку замінюється його ASCII - кодом, і
+// //  кожен код розділяється певним роздільником(наприклад,
+// //      тире).Декодування повинно виконувати зворотню операцію.
+
+// const word = "Hello, World!";
+
+// function coder(str) {
+//   let result = [];
+//   for (const letter of str) {
+//     result.push(letter.charCodeAt(0));
+//   }
+//   return result.join("-");
+// }
+
+// function decoder(str) {
+//   let arr = str.split("-");
+//   let result = "";
+//   for (const letter of arr) {
+//     result += String.fromCharCode(letter);
+//   }
+//   return result;
+// }
+// const keyWord = coder(word);
+// console.log(keyWord);
+// console.log(decoder(keyWord));
+
+
+/**
+  |============================
+  | task 
+  |============================
+*/
+
+
+// const book = {
+//   title: "The Last Kingdom",
+//   author: "Bernard Cornwell",
+//   genres: ["historical prose", "adventure"],
+//   rating: 8.38,
+// };
+// const keys = Object.keys(book);
+
+// for (const key of keys) {
+//   // Ключ
+//   console.log(key);
+//   // Значення властивості
+//   console.log(book[key]);
+// }
+
+            const rgb = [200, 255, 100];
+    const [red, green, blue] = rgb;
+console.log(`R:${red}, G: ${green}); B:$ {blue}`);
+
+
+
