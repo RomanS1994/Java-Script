@@ -832,13 +832,252 @@
 // //   console.log(book[key]);
 // // }
 
-const playlist = {
-  name: "Super playlist",
-  rating: 5,
-  tracks: ["track-1", "track-2", "track-3"],
-  trackCount: 3,
-};
-console.log(playlist.name);
+// const playlist = {
+//   name: "Super playlist",
+//   rating: 5,
+//   tracks: ["track-1", "track-2", "track-3"],
+//   trackCount: 3,
 
-const a = 2;
-console.log(a);
+//   getName() {
+//     console.log("ага це  name");
+//   },
+// };
+// console.log(playlist);
+
+// playlist.getName();
+
+// const playlist = {
+//   name: "Super playlist",
+//   rating: 5,
+//   tracks: ["track-1", "track-2", "track-3"],
+//   trackCount: 3,
+
+//   changeName(newName) {},
+//   addTrack(track) {
+//     this.tracks.push(track);
+//     this.trackCount = this.tracks.length;
+//   },
+//   addRating(ratings) {
+//     this.rating += ratings;
+//   },
+// };
+
+// playlist.addRating(6);
+
+// playlist.changeName("нове імя");
+
+// playlist.addTrack("новий трек". "sdasd". "fsdgr");
+// console.log(playlist);
+// // console.log(playlist);
+
+// const apartment = {
+//   imgUrl: "https://via.placeholder.com/640x480",
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+//   tags: ["premium", "promoted", "top"],
+//   owner: {
+//     name: "Henry",
+//     phone: "982-126-1588",
+//     email: "henry.carter@aptmail.com",
+//   },
+// };
+
+// // Change code below this line
+// const ownerName = apartment.owner.name;
+// const ownerPhone = apartment.owner.phone;
+// const ownerEmail = apartment.owner.email;
+// const numberOfTags = apartment.tags.lenght;
+// const firstTag = apartment.tags[0];
+// const lastTag = apartment.tags[-1];
+// // Change code above this line
+// console.log(firstTag);
+
+// const apartment = {
+//   imgUrl: "https://via.placeholder.com/640x480",
+//   descr: "Spacious apartment in the city center",
+//   rating: 4.7,
+//   price: 5000,
+//   tags: ["premium", "promoted", "top", "trusted"],
+//   owner: {
+//     name: "Henry Sibola",
+//     phone: "982-126-1588",
+//     email: "henry.carter@aptmail.com",
+//   },
+// };
+
+// // Change code below this line
+// apartment.area = 60;
+// apartment.rooms = 3;
+// apartment.location.country = "Jamaica";
+// apartment.location.city = "Kingston";
+
+// const emailInputName = "email";
+// const passwordInputName = "password";
+
+// const credentials = {
+//   // Change code below this line
+//   [emailInputName]: "henry.carter@aptmail.com",
+//   [passwordInputName]: "jqueryismyjam",
+
+//   // Change code above this line
+// };
+
+// console.log(credentials);
+
+// const book = {
+//   title: "The Last Kingdom",
+//   author: "Bernard Cornwell",
+//   genres: ["historical prose", "adventure"],
+//   rating: 8.38,
+// };
+
+// for (const key in book) {
+//   // Ключ
+//   // console.log(key);
+//   // Значення властивості з таким ключем
+//   console.log(book[key]);
+// }
+
+// const apartment = {
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+// };
+
+// for (key in apartment) {
+//   const keys = [key];
+//   const values = apartment[key];
+//   // Change code below this line
+// }
+
+// const book = {
+//   author: "Bernard Cornwell",
+//   genres: ["historical prose", "adventure"],
+//   rating: 8.38,
+// };
+// const keys = Object.keys(book);
+
+// for (const key of keys) {
+//   // Ключ
+//   console.log(key);
+//   // Значення властивості
+//   console.log(book[key]);
+// }
+
+// const apartment = {
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+// };
+
+// const values = [];
+// for (let key of keys) {
+//   values.push(key);
+// }
+
+// // Change code below this line
+// const keys = Object.keys(apartment);
+
+// function countProps(object) {
+//   // Change code below this line
+//   let propCount = 0;
+
+//   propCount += Object.keys(object);
+
+//   return propCount;
+//   // Change code above this line
+// }
+
+// countProps({ name: "Mango", age: 2 });
+// console.log(propCount);
+
+// const colors = [
+//   { hex: "#f44336", rgb: "244,67,54" },
+//   { hex: "#2196f3", rgb: "33,150,243" },
+//   { hex: "#4caf50", rgb: "76,175,80" },
+//   { hex: "#ffeb3b", rgb: "255,235,59" },
+// ];
+
+// for (let color of collors) {
+//   const hexColors = hexColors.push.color;
+//   const rgbColors = [];
+// }
+
+// Change code below this line
+
+/**
+  |============================
+  | 
+  |============================
+*/
+
+// const products = [
+//   { name: "Radar", price: 1300, quantity: 4 },
+//   { name: "Scanner", price: 2700, quantity: 3 },
+//   { name: "Droid", price: 400, quantity: 7 },
+//   { name: "Grip", price: 1200, quantity: 9 },
+// ];
+
+// function getAllPropValues(propName) {
+//   // Change code below this line
+//   let result = [];
+
+//   for (product of products) {
+//     console.log(product);
+//     let keys = Object.keys(product);
+//     // console.log(keys);
+//     if (keys.includes(propName)) {
+//       result.push(product[propName]);
+//     }
+//   }
+
+//   return result;
+
+//   // Change code above this line
+// }
+
+// console.log(getAllPropValues("name"));
+// console.log(product);
+/**
+  |============================
+  | 
+  |============================
+*/
+
+// const products = [
+//   { name: "Radar", price: 1300, quantity: 4 },
+//   { name: "Scanner", price: 2700, quantity: 3 },
+//   { name: "Droid", price: 400, quantity: 7 },
+//   { name: "Grip", price: 1200, quantity: 9 },
+// ];
+
+// function getAllPropValues(propName) {
+//   let totalPrice = 0;
+//   let price = 0;
+//   let quantity = 0;
+//   // Change code below this line
+//   for (const product of products) {
+//     console.log(product);
+//   }
+//   // Change code above this line
+// }
+// console.log(calculateTotalPrice("Blaster"));
+
+const highTemperatures = {
+  yesterday: 28,
+  today: 26,
+  tomorrow: 33,
+};
+// Change code below this line
+
+// const highYesterday = highTemperatures.yesterday;
+// const highToday = highTemperatures.today;
+// const highTomorrow = highTemperatures.tomorrow;
+// const highIcon = highTemperatures.icon;
+const {yesterday: highYesterday, today: highToday, 
+  tomorrow: highTomorrow, 
+  highIcon = "https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg"
+}
+// Change code above this line
+const meanTemperature = (highYesterday + highToday + highTomorrow) / 3;
