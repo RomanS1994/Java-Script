@@ -56,3 +56,17 @@ const handleBtnClick = function () {
 };
 
 buttonRef.addEventListener("click", handleBtnClick);
+
+/**
+  |============================
+  | виклик геопозиції
+  |============================
+*/
+const onGetPositionSuccess = function (position) {
+  console.log(position);
+};
+const ongetPositionError = function (error) {
+  console.log(error);
+};
+
+window.navigator.geolocation.getCurrentPosition(onGetPositionSuccess);
