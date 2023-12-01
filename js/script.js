@@ -1089,6 +1089,3 @@
   | 
   |============================
 */
-
-getTotalPrice = (qty, price) => qty * price;
-console.log(getComputedStyle(3, 1150));
