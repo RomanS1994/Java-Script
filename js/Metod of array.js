@@ -66,3 +66,4 @@ const students = [
 
 const allCourses = students.flatMap((student) => student.courses);
 // ['математика', 'фізика', 'інформатика', 'математика', 'фізика', 'біологія'];
+sdasd;
