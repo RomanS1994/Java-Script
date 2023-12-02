@@ -205,33 +205,142 @@
   | Метод forEacg
   |============================
 */
-const numbers = [5, 10, 15, 20, 25];
+// const numbers = [5, 10, 15, 20, 25];
 
-// // Класичний for
-// for (let i = 0; i < numbers.length; i += 1) {
-//   console.log(`Індекс ${i}, значення ${numbers[i]}`);
+// // // Класичний for
+// // for (let i = 0; i < numbers.length; i += 1) {
+// //   console.log(`Індекс ${i}, значення ${numbers[i]}`);
+// // }
+// // Метод перебирання forEach
+// numbers.forEach(function (index, number) {
+//   console.log(`Індекс ${index}, значення ${number}`);
+// });
+
+// function getCommonElements(firstArray, secondArray) {
+//   const commonElements = [];
+//   // Change code below this line
+
+//   // for (let i = 0; i < firstArray.length; i += 1) {
+//   //   if (secondArray.includes(firstArray[i])) {
+//   //     commonElements.push(firstArray[i]);
+//   //   }
+//   // }
+
+//   firstArray.forEach(function (number, index) {
+//     if (secondArray.includes(number)) {
+//       commonElements.push(number);
+//     }
+//   });
+
+//   return commonElements;
+//   // Change code above this line
 // }
-// Метод перебирання forEach
-numbers.forEach(function (index, number) {
-  console.log(`Індекс ${index}, значення ${number}`);
-});
 
-function getCommonElements(firstArray, secondArray) {
-  const commonElements = [];
-  // Change code below this line
+/**
+  |============================
+  | Стрілочна функція
+  |============================
+*/
 
-  // for (let i = 0; i < firstArray.length; i += 1) {
-  //   if (secondArray.includes(firstArray[i])) {
-  //     commonElements.push(firstArray[i]);
-  //   }
-  // }
+// const add = (a, b, c) => a + b + c;
+// // console.log(add);
 
-  firstArray.forEach(function (number, index) {
-    if (secondArray.includes(number)) {
-      commonElements.push(number);
-    }
-  });
+// const adb = (a, b, c) => {
+//   console.log(a, b, c);
+//   return a + b + c;
+// };
+// adb(1, 34, 3);
 
-  return commonElements;
-  // Change code above this line
-}
+// // console.log(adb);
+
+// function classicAdd(b, c) {
+//   console.log(b, c);
+//   return b + c;
+// }
+// classicAdd(2 + 3 + 4);
+
+// анонімна стрілочна функція
+
+// Change code below this line
+// const calculateTotalPrice = (orderedItems) => {
+//   let totalPrice = 0;
+
+//   orderedItems.forEach((item) => (totalPrice += item));
+
+//   return totalPrice;
+// };
+// // Change code above this line
+
+// ЗАДАЧА. ФІЛЬТРАЦІЯ МАСИВУ ЧИСЕЛ 2.0
+
+// Change code below this line
+// const filterArray = (numbers, value) => {
+//   const filteredNumbers = [];
+
+//   numbers.forEach((number) => {
+//     if (number > value) {
+//       filteredNumbers.push(number);
+//     }
+//   });
+
+//   // Change code above this line
+//   return filteredNumbers;
+// };
+
+// const dirtyMultiply = (array, value) => {
+//   for (let i = 0; i < array.length; i += 1) {
+//     array[i] = array[i] * value;
+//   }
+// };
+
+// const array = [1, 2, 3, 4, 5];
+// dirtyMultiply(array, 8);
+// // Відбулася мутація вихідних даних - масиву numbers
+// console.log(array); // [2, 4, 6, 8, 10]
+
+/**
+  |============================
+  |Метод map() 
+  |============================
+*/
+// ЗАДАЧА МАСИВ СТУДЕНТІВ
+// const students = [
+//   { name: "Манго", score: 83 },
+//   { name: "Полі", score: 59 },
+//   { name: "Аякс", score: 37 },
+//   { name: "Ківі", score: 94 },
+//   { name: "Х'юстон", score: 64 },
+// ];
+
+// const names = students.map((student) => student.name);
+// console.log(names);
+
+/**
+  |============================
+  | Метод flatMap()
+  |============================
+*/
+// const students = [
+//   { name: "Манго", score: 83 },
+//   { name: "Полі", score: 59 },
+//   { name: "Аякс", score: 37 },
+//   { name: "Ківі", score: 94 },
+//   { name: "Х'юстон", score: 64 },
+// ];
+// const students = [
+//   { name: "Манго", courses: ["математика", "фізика"] },
+//   { name: "Полі", courses: ["інформатика", "математика"] },
+//   { name: "Ківі", courses: ["фізика", "біологія"] },
+// ];
+
+// students.map((student) => student.courses);
+// // [['математика', 'фізика'], ['інформатика', 'математика'], ['фізика', 'біологія']]
+
+// students.flatMap((student) => student.courses);
+// // ['математика', 'фізика', 'інформатика', 'математика', 'фізика', 'біологія'];
+
+/**
+  |============================
+  | Метод filter()
+  |============================
+*/
