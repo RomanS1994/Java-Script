@@ -109,12 +109,129 @@
   |============================
 */
 
-const filter = function (array) {
-  const filteredarray = [];
+// const filter = function (array) {
+//   const filteredarray = [];
 
-  for (const el of array) {
-    console.log(el);
-  }
-};
+//   for (const el of array) {
+//     console.log(el);
+//   }
+// };
 
-filter([1, 2, 3, 4, 5]);
+// filter([1, 2, 3, 4, 5]);
+
+/**
+  |============================
+  | доступність випадкового числа
+  |============================
+*/
+
+// function processCall(recipient) {
+//   // Імітуємо доступність абонента випадковим числом
+//   const isRecipientAvailable = Math.random() > 0.5;
+
+//   if (!isRecipientAvailable) {
+//     console.log(`Абонент ${recipient} недоступний, залиште повідомлення.`);
+//     // Логіка активації автовідповідача
+//   } else {
+//     console.log(`З'єднуємо з ${recipient}, очікуйте...`);
+//     // Логіка прийняття дзвінка
+//   }
+// }
+
+// processCall("Roman");
+
+// Рефакторинг
+
+// function processCall(recipient, onAvailable, onNotAvailable) {
+//   // Імітуємо доступність абонента випадковим числом
+//   const isRecipientAvailable = Math.random() > 0.5;
+
+//   if (!isRecipientAvailable) {
+//     onNotAvailable(recipient);
+//     return;
+//   }
+
+//   onAvailable(recipient);
+// }
+
+// function takeCall(name) {
+//   console.log(`З'єднуємо з ${name}, очікуйте...`);
+//   // Логіка прийняття дзвінка
+// }
+
+// function activateAnsweringMachine(name) {
+//   console.log(`Абонент ${name} недоступний, залиште повідомлення.`);
+//   // Логіка активації автовідповідача
+// }
+
+// function leaveHoloMessage(name) {
+//   console.log(`Абонент ${name} недоступний, записуємо голограму.`);
+//   // Логіка запису голограми
+// }
+
+// processCall("Mango", takeCall, activateAnsweringMachine);
+// processCall("Poly", takeCall, leaveHoloMessage);
+
+// const pizzaPalace = {
+//   pizzas: ["Ultracheese", "Smoked", "Four meats"],
+//   order(pizzaName, onSuccess, onError) {
+//     return this.pizzas.includes(pizzaName)
+//       ? onSuccess(pizzaName)
+//       : onError(
+//           `There is no pizza with a name ${pizzaName} in the assortment.`
+//         );
+//   },
+// };
+// // Change code above this line
+
+// // Callback for onSuccess
+// function makePizza(pizzaName) {
+//   return `Your order is accepted. Cooking pizza ${pizzaName}.`;
+// }
+
+// // Callback for onError
+// function onOrderError(error) {
+//   return `Error! ${error}`;
+// }
+
+// // Method calls with callbacks
+// pizzaPalace.order("Smoked", makePizza, onOrderError);
+// pizzaPalace.order("Four meats", makePizza, onOrderError);
+// pizzaPalace.order("Big Mike", makePizza, onOrderError);
+// pizzaPalace.order("Vienna", makePizza, onOrderError);
+
+/**
+  |============================
+  | Метод forEacg
+  |============================
+*/
+const numbers = [5, 10, 15, 20, 25];
+
+// // Класичний for
+// for (let i = 0; i < numbers.length; i += 1) {
+//   console.log(`Індекс ${i}, значення ${numbers[i]}`);
+// }
+// Метод перебирання forEach
+numbers.forEach(function (index, number) {
+  console.log(`Індекс ${index}, значення ${number}`);
+});
+
+function getCommonElements(firstArray, secondArray) {
+  const commonElements = [];
+  // Change code below this line
+
+  // for (let i = 0; i < firstArray.length; i += 1) {
+  //   if (secondArray.includes(firstArray[i])) {
+  //     commonElements.push(firstArray[i]);
+  //   }
+  // }
+
+  firstArray.forEach(function (number, index) {
+    if (secondArray.includes(number)) {
+      commonElements.push(number);
+    }
+  });
+
+  return commonElements;
+  // Change code above this line
+}
