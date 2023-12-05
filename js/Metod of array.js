@@ -429,19 +429,19 @@
 // };
 // // Change code above this line
 // console.log(arrayUsersColors);
-const students = [
-  { name: "Mango", score: 83, courses: ["mathematics", "physics"] },
-  { name: "Poly", score: 59, courses: ["science", "mathematics"] },
-  { name: "Ajax", score: 37, courses: ["physics", "biology"] },
-  { name: "Kiwi", score: 94, courses: ["literature", "science"] },
-];
+// const students = [
+//   { name: "Mango", score: 83, courses: ["mathematics", "physics"] },
+//   { name: "Poly", score: 59, courses: ["science", "mathematics"] },
+//   { name: "Ajax", score: 37, courses: ["physics", "biology"] },
+//   { name: "Kiwi", score: 94, courses: ["literature", "science"] },
+// ];
 
-const sortedByAscendingScore = [...students].sort((a, b) => a.score - b.score);
+// const sortedByAscendingScore = [...students].sort((a, b) => a.score - b.score);
 
-console.log(sortedByAscendingScore);
-// Change code below this line
-const getNamesSortedByFriendCount = users => {
-  return [...users].sort((a, b) = a.friends.length - b.friends.length)
- .map((user) => user.name)
-};
-// Change code above this line
+// console.log(sortedByAscendingScore);
+// // Change code below this line
+// const getNamesSortedByFriendCount = users => {
+//   return [...users].sort((a, b) = a.friends.length - b.friends.length)
+//  .map((user) => user.name)
+// };
+// // Change code above this line
