@@ -12,23 +12,23 @@
 
 // ******** Значення які завжди приводятся до false ********
 
-//  0 (Число 0)
-console.log(Boolean(0));
+// //  0 (Число 0)
+// console.log(Boolean(0));
 
-// "" (Порожній ярядок)
-console.log(Boolean(""));
+// // "" (Порожній ярядок)
+// console.log(Boolean(""));
 
-// NaN
-console.log(Boolean(NaN));
+// // NaN
+// console.log(Boolean(NaN));
 
-// Undefined
-console.log(Boolean(undefined));
+// // Undefined
+// console.log(Boolean(undefined));
 
-// null
-console.log(Boolean(null));
+// // null
+// console.log(Boolean(null));
 
-// false
-console.log(Boolean(false));
+// // false
+// console.log(Boolean(false));
 
 /****** Prompt  ******/
 
