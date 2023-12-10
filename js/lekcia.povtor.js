@@ -30,4 +30,12 @@ console.log(Boolean(null));
 // false
 console.log(Boolean(false));
 
-/******  ******/
+/****** Prompt  ******/
+
+/****** confirm ******/
+
+/****** ?? ******/
+/******
+ * Оперетор нульового порівняння
+ * реагуʼє лише на null and undefined
+ ******/
